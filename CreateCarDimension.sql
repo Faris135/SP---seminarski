@@ -1,0 +1,10 @@
+CREATE TABLE DimCar
+(
+	CarKey				INT				IDENTITY(1, 1) NOT NULL,
+	CarModel	 		VARCHAR(40)			NOT NULL,
+	CarBrand				VARCHAR(40)		NULL,
+	CarCategory 			VARCHAR(40)		NULL,
+	CarOption 			VARCHAR(40)		NULL,
+	CONSTRAINT PK_DimCar PRIMARY KEY (CarKey)
+);
+GO
